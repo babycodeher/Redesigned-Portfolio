@@ -1,0 +1,24 @@
+body {
+    background-color: olive;
+}
+#header {
+    padding: 25px;
+}
+
+.name {
+    width: fit-content;
+    padding-left: 30px;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+.navbar-brand{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 25px;
+}
