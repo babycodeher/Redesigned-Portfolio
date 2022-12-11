@@ -26,3 +26,28 @@ body {
 .row {
     display: flex;
 }
+
+.workContainer {
+    width: 600px;
+    height: 620px;
+}
+
+/* .card-img-top {
+    min-width: fit-content;
+    min-height: fit-content;
+    justify-content: center;
+} */
+
+.workHeading {
+    display: flex;
+    justify-content: center;
+}
+
+.work {
+    margin-bottom: 50px;
+}
+
+.contactme {
+    display: flex;
+    flex-direction: row;
+}
