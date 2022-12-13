@@ -1,8 +1,13 @@
 body {
-    background-color: olive;
+    background-color: rgb(137, 137, 126);
 }
 #header {
     padding: 25px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 300;
 }
 
 .name {
@@ -14,7 +19,7 @@ body {
     justify-content: flex-end;
 }
 
-.navbar-brand, .title {
+.navbar-brand {
     font-size: 45px;
     font-weight: bold;
 }
@@ -38,32 +43,39 @@ body {
     justify-content: center;
 } */
 
-.workHeading {
+.sectionHeading {
     display: flex;
     justify-content: center;
 }
 
-.work {
-    margin-bottom: 50px;
-}
 
 .contactme {
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    /* flex-direction: row; */
 }
 
-.contactme ul {
-    width: 40%;
+.contactme {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    font-size: 25px;
     align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
+
 .title {
-    width: 25%;
+    width: 50%;
 }
+
 a {
     color: rgb(67, 65, 65);
+}
+
+.workSampleContainer {
+    padding: 30px;
+}
+
+.container {
+    width: 50%;
+    margin-right: auto;
 }
